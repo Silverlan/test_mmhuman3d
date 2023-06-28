@@ -45,6 +45,8 @@ jobs:
       - name: Build mmhuman3d
         shell: bash
         run: |
+          conda install -c anaconda python=3.8
+
           # Install ffmpeg
           conda install ffmpeg
 
